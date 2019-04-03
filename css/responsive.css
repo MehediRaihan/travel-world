@@ -1,0 +1,69 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+ 
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.video-bg {
+	margin-bottom: 30px;
+}
+.contact-area button{
+    margin-bottom: 30px;
+} 
+.foter-content {
+	margin-left: 0 !important;
+}
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+.header-area h1{
+    font-size: 25px;
+    margin-top: -60px;
+}
+.header-area p{
+        font-size: 15px;
+    }    
+.video-bg {
+	margin-bottom: 30px;
+}
+.contact-area button{
+    margin-bottom: 30px;
+} 
+.foter-content {
+	margin-left: 0 !important;
+}    
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+.header-area h1{
+    font-size: 25px;
+    margin-top: -60px;
+}
+.header-area p{
+    font-size: 15px;
+    }
+.contact-area button{
+    margin-bottom: 30px;
+}    
+.foter-content{
+    margin-left: 0 !important;
+}    
+    
+
+}
